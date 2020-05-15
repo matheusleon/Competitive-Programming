@@ -1,7 +1,7 @@
 // UNDIRECTED GRAPH
 
 int n;
-set<int> adj[MAXN];
+multiset<int> adj[MAXN];
 int deg[MAXN], vis[MAXN];
 
 void isConnected(int u) {
